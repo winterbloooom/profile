@@ -321,6 +321,11 @@ code {
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     #profile-personal-info-contacts-circlebox {
         display: flex;
         flex-direction: column;
