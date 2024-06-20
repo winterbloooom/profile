@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>EunGi Han</title>
+
+        <link rel="stylesheet" href="style.css"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+        <div id="page" class="container">
+            <div id="home">
+                <div id="home-profile">
+                    <div id="profile-photo">
+                        <img src="../assets/photo.jpg" class="imgs">
+                    </div>
+                    <div id="profile-personal-info">
+                        <div id="profile-personal-info-name">Han EunGi</div>
+                        <div id="profile-personal-info-summary">Master Student in POSTECH, Korea</div>
+                        <div id="profile-personal-info-contacts">
+                            <div class="profile-personal-info-contacts-box two-fill">
+                                <!-- <i class="fa-regular fa-envelope"></i> -->
+                                <a href="mailto:eungi@postech.ac.kr">eungi@postech.ac.kr</a>
+                                /
+                                <a href="mailto:717lumos@gmail.com">717lumos@gmail.com</a>
+                            </div>
+                            <!-- <div class="profile-personal-info-contacts-box">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="https://drive.google.com/file/d/1s6SZIIgloQesZCYpKr0EK779U-v8xWTk/view?usp=sharing">CV</a>
+                            </div> -->
+                            <!-- <div class="profile-personal-info-contacts-box">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <a href="https://winterbloooom.github.io/">Blog</a>
+                            </div> -->
+                            <div id="profile-personal-info-contacts-circlebox">
+                                <a class="profile-personal-info-contacts-circle" href="https://drive.google.com/file/d/1s6SZIIgloQesZCYpKr0EK779U-v8xWTk/view?usp=sharing">
+                                    CV
+                                </a>
+
+                                <a class="profile-personal-info-contacts-circle" href="https://github.com/winterbloooom">
+                                    <i class="fa-brands fa-github-alt"></i>
+                                </a>
+                                <a class="profile-personal-info-contacts-circle" href="https://www.linkedin.com/in/eungi-han/">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <!-- <span>LinkedIn</span> -->
+                                </a>
+                                
+                                <!-- <a class="profile-personal-info-contacts-circle" href="https://www.instagram.com/winterbloooom/">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a> -->
+                                
+                                <a class="profile-personal-info-contacts-circle" href="https://x.com/winterbloooom">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="home-greeting">
+                    Hi👋 I am MS Student in <a href="https://ami.postech.ac.kr/">AMI Lab</a> at Pohang University of Sceience and Technology (POSTECH) advised by <a href="https://ami.postech.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>.
+                    I am interested in 3D/4D Humans and Faces.
+                    Before I join the lab, I studied autonomous driving and shipping. <br>
+                    I received my bachelor's degree in Naval Architecture and Ocean Engineering and Computer Engineering from Inha University.
+                </div>
+
+                <div class="home-section">
+                    <div class="section-title">
+                        <div class="section-title-icon">📢</div>
+                        <div class="section-title-text">News</div>
+                    </div>
+                    <div class="section-contents" id="section-news">
+                        <!-- TODO: JSON 등으로 문서화하고, JS로 불러오기 -->
+                        <div class="news-single">
+                            <div class="news-single-date">06/2024</div>
+                            <div class="news-single-content">One paper are accepted in INTERSPEECH 2024.</div>
+                        </div>
+                        <div class="news-single">
+                            <div class="news-single-date">01/2024</div>
+                            <div class="news-single-content">One paper are accepted in IPIU 2024.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-section">
+                    <div class="section-title">
+                        <div class="section-title-icon">📚</div>
+                        <div class="section-title-text">Research Experiences</div>
+                    </div>
+                    <div class="section-contents" id="section-expr">
+                        <div class="expr-single">
+                            <div class="expr-single-duration">Sep. 2023 ~ Present</div>
+                            <div class="expr-single-location">Pohang, Korea</div>
+                            <div class="expr-single-content"><a href="https://ami.postech.ac.kr/">POSTECH - Algorithmic Machine Intelligence (AMI) Lab</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-section">
+                    <div class="section-title">
+                        <div class="section-title-icon">📑</div>
+                        <div class="section-title-text">Publications</div>
+                    </div>
+                    <div id="section-desc">* These authors contributed equally to this work.</div>
+
+                    <!-- TODO: Han EunGi인 것에 자동 밑줄되도록 -->
+
+                    <div class="section-contents" id="section-pub">
+                        <div class="pub-single">
+                            <div class="pub-single-img">
+                                <img src="../assets/lipexpert.jpg" class="imgs">
+                            </div>
+                            <div class="pub-single-contents">
+                                <div class="pub-single-title">Enhancing Speech-Driven 3D Facial Animation with Audio-Visual Guidance from Lip Reading Expert</div>
+                                <div class="pub-single-authors"><u><b>Han EunGi</b></u>*, Oh Hyun-Bin*, Kim Sung-Bin, Corentin Nivelet Etcheberry, Suekyeong Nam, Janghoon Ju, Tae-Hyun Oh</div>
+                                <div class="pub-single-venue">INTERSPEECH 2024</div>
+                                <div class="pub-single-further">
+                                    <a href="">Paper (coming soon)</a>
+                                    <a href="">Code (coming soon)</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="section-contents" id="section-pub">
+                        <div class="pub-single">
+                            <div class="pub-single-img">
+                                <img src="../assets/FARET.jpg" class="imgs">
+                            </div>
+                            <div class="pub-single-contents">
+                                <div class="pub-single-title">3D Reconstruction with Transformer</div>
+                                <div class="pub-single-authors"><u><b>Han EunGi</b></u>, Kim Sung-Bin, Lee Hyun, Kim Youwang, Tae-Hyun Oh</div>
+                                <div class="pub-single-venue">IPIU 2024</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
