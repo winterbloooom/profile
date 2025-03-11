@@ -28,9 +28,9 @@
     /* font */
     font-family: "SpoqaHanSansNeo", "NotoSansKR", sans-serif;
     
-    font-weight: 100;
+    font-weight: 400;
     
-    font-size: 18px; /* = 1rem */
+    font-size: 20px; /* = 1rem */
     --fontsize_tag: 0.9rem;
     --lineheight: 1.5rem;
 
@@ -180,7 +180,7 @@ code {
 } */
 
 #home-greeting {
-    font-size: 0.9rem;
+/*     font-size: 0.9rem; */
 }
 
 /* #home-greeting a {
@@ -213,6 +213,8 @@ code {
 
 .news-single-date {
     font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 
 .expr-single {
