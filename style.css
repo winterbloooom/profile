@@ -93,9 +93,9 @@
     /* font */
     font-family: 'Pretendard', "NotoSansKR", sans-serif; 
     
-    font-weight: 300;
+    font-weight: 200;
     
-    font-size: 20px; /* = 1rem */
+    font-size: 16px; /* = 1rem */
     --fontsize_tag: 0.9rem;
     --lineheight: 1.5rem;
 
